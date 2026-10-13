@@ -38,12 +38,14 @@ Run the script from your terminal by providing the path to your wallpaper folder
 
 ### 1. Preview Changes (Dry-Run Mode)
 It is recommended to test your folder first without modifying any files:
+
 ```bash
 python rename_wallpapers.py -p ~/Pictures/Wallpapers --dry-run
 ```
 
 ### 2. Run the Renamer
 Execute the batch-rename operation across your wallpaper directory:
+
 ```bash
 python rename_wallpapers.py -p ~/Pictures/Wallpapers
 ```
