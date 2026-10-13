@@ -1,10 +1,10 @@
-# AI Wallpaper Renamer 🖼️🤖
+# AI Wallpaper Renamer
 
 A local, privacy-focused command-line tool that uses local Ollama vision models (like `llava-phi3`) to automatically scan, analyze, and rename your wallpapers into clean, descriptive slugs.
 
 ## Features
 
-- **100% Local & Private:** Runs entirely on your machine via Ollama—no images are sent to the cloud.
+- **100% Local & Private:** Runs entirely on your machine via Ollama. No images are sent to the cloud.
 - **Customizable Vision Models:** Choose any vision-capable model you have installed.
 - **Smart Formatting:** Sanitizes descriptions into short, lowercase, hyphen-separated filenames.
 - **Dry-Run Support:** Preview your new filenames safely before applying any changes to disk.
