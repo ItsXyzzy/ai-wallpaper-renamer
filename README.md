@@ -12,23 +12,22 @@ A local, privacy-focused command-line tool that uses local Ollama vision models 
 
 ---
 
-## Installation & Setup
+## Prerequisites
 
-<Steps>
-  <Step subtitle="Prerequisites" title="Install Ollama and Pull a Vision Model">
-    Make sure Ollama is installed and running on your system, then download a lightweight vision model:
-    ```bash
-    ollama pull llava-phi3
-    ```
-  </Step>
+Make sure Ollama is installed and running on your system
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+Then download a lightweight vision model (I used llava):
+    
+```bash
+ollama pull llava-phi3
+```
 
-  <Step subtitle="Environment" title="Clone and Set Up Python">
-    Clone this repository or save the script, then install the official Ollama Python package:
-    ```bash
-    pip install ollama
-    ```
-  </Step>
-</Steps>
+Clone this repository or save the script, then install the official Ollama Python package:
+```bash
+pip install ollama
+```
 
 ---
 
